@@ -476,23 +476,24 @@ input[type=button]:hover,
 input[type=button]:focus,
 input[type=submit]:hover,
 input[type=submit]:focus {
-	background-color: #ffe500;
+	background-color: #34af23;
 	color: #fff;
-	border: 2px solid #ffe500
+	border: 2px solid white
 }
 
 .btn-secondary {
-	border-color: #d5d5d5;
+	border-color: #ffe500;
 	color: #fff;
 	background-color: #333;
+
 	box-shadow: 0 10px 10px -8px rgba(0, 0, 0, .78)
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus {
-	color: #333;
-	border-color: #d5d5d5;
-	background-color: #d5d5d5
+	color: white;
+	border-color: white;
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
 .mfp-container button {
@@ -4849,11 +4850,11 @@ a.post-thumbnail:hover {
 }
 
 .site-footer .footer-social-links li a {
-	color: #ddd;
+	/*color: white; */
 	text-decoration: none;
 	line-height: 21px;
 	font-size: 13px;
-	opacity: .6
+	/*opacity: .6*/
 }
 
 .site-footer .footer-social-links li a:hover {
